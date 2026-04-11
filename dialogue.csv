@@ -1,0 +1,38 @@
+#scn1		
+	psicologo	Buenos días.
+	derek	Buenas.
+	psicologo	Hoy hace bonito día, ¿verdad?
+	derek	Si, bueno.
+	psicologo	Puede dejar sus cosas aquí.
+	psicologo	Bueno, cuénteme qué tal le ha ido. 
+	derek	Pues… normal. 
+	psicologo	¿No han habido cambios? 
+	derek	No. 
+	psicologo	¿Qué hizo ayer? 
+	derek	Despertar, móvil, comer, jugar al PC y dormir. 
+	psicologo	Estabas estudiando, ¿no? Pronto vas a volver al instituto; ya se acaban las vacaciones de verano.
+	derek	Si. 
+	derek	En realidad, ahora es universidad. 
+	psicologo	Oh, es verdad. ¿En qué carrera estás? 
+	derek	Ingeniería Informática. 
+	psicologo	Qué chulo (!). 
+	derek	Está un poco más apartado de aquí. 
+	derek	Estos días me mudaré a los apartamentos que proporciona la universidad. 
+	psicologo	Oh. Entonces tendrás que cambiar de centro sanitario. 
+	psicologo	No te voy a poder ver más. 
+	derek	Ya. 
+	derek	No sé si seguiré llendo al psicólogo. 
+	psicologo	Bueno, ¿qué edad tienes? 
+	psicologo	A ver, naciste en 2008… en marzo. 
+	psicologo	Ah, pues ya cumplistes 18 hace unos meses. Entonces ya puedes hacer lo que quieras sin tener que preocuparte por tus padres. 
+	psicologo	Aunque. Siempre viene bien ir de vez en cuando. 
+	psicologo	Aunque ya de por sí no vengas mucho. 
+	psicologo	Felicidades, por cierto. Los 18 son un año bastante importante. 
+	derek	Gracias. 
+	psicologo	Pues venga, ya que va a ser tu última vez aquí, intentemos aprovechar la hora para hablar lo más que podamos. 
+	psicologo	¿Quieres hablar de algo en específico? 
+	derek	Bueno…
+end		
+#test		
+	test	Diferenciacion entre escenas funciona bien.
+end		
