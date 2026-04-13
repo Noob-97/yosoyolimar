@@ -41,6 +41,10 @@ function initScene(scene_name) {
 }
 
 function readNextLine() {
+    if (current_scene == "N/A") {
+        console.warn("No scene is playing; no next line to follow. Ignoring.");
+        return;
+    }
     line++;
     current_row = scenes[current_scene] + line;
     columns = rows[current_row].split(columnlimiter);
@@ -48,12 +52,19 @@ function readNextLine() {
     // ACCIONES (columna 0) -----
     // Acción texto: vacio
     if (columns[0] == "") {
-        console.log(columns[1] + ": " + columns[2]);
-        readNextLine();
+        //console.log(columns[1] + ": " + columns[2]);
+        showTextLine(columns[2]);
+        //readNextLine();
     }
     if (columns[0] == "end") {
         endScene();
     }
+}
+
+function showTextLine() {
+    current_text = document.getElementById("dialogue").innerHTML;
+    text = "<p class=" + columns[1] + ">" + columns[2] + "</p>";
+    document.getElementById("dialogue").innerHTML = current_text + text ;
 }
 
 function endScene() {

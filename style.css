@@ -1,0 +1,51 @@
+.derek {
+    color: blue;
+}
+
+.psicologo {
+    color: grey;
+}
+
+html {
+    scrollbar-color: grey gainsboro;
+}
+
+#main {
+    text-align: center;
+}
+
+#player {
+    display:flex;
+	height:60vh;
+	align-items:center;
+    width: 85vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#player div {
+    width: 100%;
+}
+
+#flash {
+    width: 100%;
+}
+
+ruffle-embed {
+    width: 90%;    
+    height: auto;      
+    aspect-ratio: 4 / 3;
+    display: block;
+    
+}
+
+#dialogue-container {
+    background-color: gainsboro;
+    padding: 10px;
+}
+
+#dialogue {
+    text-align: left;
+    height: 50vh;
+    overflow-y: auto;
+}
