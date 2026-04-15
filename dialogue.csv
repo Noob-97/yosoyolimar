@@ -36,3 +36,30 @@ end
 #test		
 	test	Diferenciacion entre escenas funciona bien.
 end		
+#scn1r2		
+narrator		En el momento en el que me entregaron las notas de las pruebas de selectividad, aún no me percaté de la tal conmoción que iba a causar.
+narrator		Horrible fue mi cara cuando miré que en todas las materias había puesto al lado un ‘sobresaliente’.
+narrator		Para cualquier otra persona común, mis padres y mis compañeros, fue una excelente noticia.
+narrator		Pero para mí… supondría adentrarse de nuevo en el infierno.
+	psicologa	Buenos días.
+	derek	Buenas.
+	psicologa	Hoy hace bonito día, ¿verdad?
+	derek	Sí, bueno.
+	psicologa	Siento que hoy no pueda estar con su psicologo habitual. Se encuentra mal, pero yo estoy de suplente.
+	psicologa	Sí es cierto que tengo sus datos en su ficha de paciente, pero me gustaría oír de usted.
+	psicologa	¿Me puedes hablar un poco sobre tí?
+	derek	Ehh. .
+	derek	Pues.. me llamo Derek. Tengo 18 años.
+	derek	Y ya.
+	psicologa	¿Nada más?
+	psicologa	Algo habrá que haber.
+	derek	Supongo que me voy a la universidad mañana.
+	psicologa	¿Cómo? ¿Comienzas?
+	derek	Sí.
+	psicologa	Ah.
+	psicologa	Mira aquí pone…
+	psicologa	“Derek, adolescente tardío adulto de 18 años. Estudiante no empleado, soltero.”
+	psicologa	“Inscripción por parte de familia. Problemas de socialización y relación con demás personas.”
+	psicologa	“Estado de ánimo:”
+	psicologa	¿“radicalmente neutral”..?
+	psicologa	¿..qué se supone que significa eso?
