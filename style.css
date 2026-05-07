@@ -8,6 +8,7 @@
 
 html {
     scrollbar-color: grey gainsboro;
+    font-family: "Iceberg", sans-serif;
 }
 
 #main {
@@ -48,4 +49,9 @@ ruffle-embed {
     text-align: left;
     height: 50vh;
     overflow-y: auto;
+    color:dimgrey;
+}
+
+#current-line {
+    color:black;
 }

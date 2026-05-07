@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Iceberg">
     <title>yo soy olimar</title>
 </head>
 <body>
     <script src="ruffle/ruffle.js"></script>
-    <script src="csvmanager.js"></script>
+    <script src="csvmanager.js" defer></script>
     <script src="scenecontroller.js"></script>
 
     <div id="main">
 
-        <h1>ESTA ES LA PÁGINA ÍNDICE</h1>
+        <h1>Infierno</h1>
         <div id="player">
 
             <div id="flash">
 
-                <embed id="flash-file"src="flash/EXTERNAL_API_TEST.swf">
+                <embed id="flash-file"src="flash/infierno.swf">
                     <param name="allowScriptAccess" value="always" />
                 </embed>
                 <!-- img src="olistoopidpfp.png" height="400" width="400"> -->
@@ -30,9 +31,9 @@
                     <!-- <p>Aqui va el dialogo</p> -->
 
                 </div>
-                <button onclick="readNextLine()">Siguiente linea</button>
-                <button onclick="execflashcontinue()">flash function</button>
-                <p>scn1, publicado 13/04/2026</p>
+                <button id="next-button" onclick="readNextLine()">Siguiente linea</button>
+                <!-- <button onclick="execflashcontinue()">flash function</button> -->
+                <p>infierno-1, publicado 07/05/2026</p>
 
             </div>
 

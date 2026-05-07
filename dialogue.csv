@@ -1,65 +1,14 @@
-#scn1		
-	psicologo	Buenos días.
-	derek	Buenas.
-	psicologo	Hoy hace bonito día, ¿verdad?
-	derek	Si, bueno.
-	psicologo	Puede dejar sus cosas aquí.
-	psicologo	Bueno, cuénteme qué tal le ha ido. 
-	derek	Pues… normal. 
-	psicologo	¿No han habido cambios? 
-	derek	No. 
-	psicologo	¿Qué hizo ayer? 
-	derek	Despertar, móvil, comer, jugar al PC y dormir. 
-	psicologo	Estabas estudiando, ¿no? Pronto vas a volver al instituto; ya se acaban las vacaciones de verano.
-	derek	Si. 
-	derek	En realidad, ahora es universidad. 
-	psicologo	Oh, es verdad. ¿En qué carrera estás? 
-	derek	Ingeniería Informática. 
-	psicologo	Qué chulo (!). 
-	derek	Está un poco más apartado de aquí. 
-	derek	Estos días me mudaré a los apartamentos que proporciona la universidad. 
-	psicologo	Oh. Entonces tendrás que cambiar de centro sanitario. 
-	psicologo	No te voy a poder ver más. 
-	derek	Ya. 
-	derek	No sé si seguiré llendo al psicólogo. 
-	psicologo	Bueno, ¿qué edad tienes? 
-	psicologo	A ver, naciste en 2008… en marzo. 
-	psicologo	Ah, pues ya cumplistes 18 hace unos meses. Entonces ya puedes hacer lo que quieras sin tener que preocuparte por tus padres. 
-	psicologo	Aunque. Siempre viene bien ir de vez en cuando. 
-	psicologo	Aunque ya de por sí no vengas mucho. 
-	psicologo	Felicidades, por cierto. Los 18 son un año bastante importante. 
-	derek	Gracias. 
-	psicologo	Pues venga, ya que va a ser tu última vez aquí, intentemos aprovechar la hora para hablar lo más que podamos. 
-	psicologo	¿Quieres hablar de algo en específico? 
-	derek	Bueno…
-end		
-#test		
-	test	Diferenciacion entre escenas funciona bien.
-end		
-#scn1r2		
-narrator		En el momento en el que me entregaron las notas de las pruebas de selectividad, aún no me percaté de la tal conmoción que iba a causar.
-narrator		Horrible fue mi cara cuando miré que en todas las materias había puesto al lado un ‘sobresaliente’.
-narrator		Para cualquier otra persona común, mis padres y mis compañeros, fue una excelente noticia.
-narrator		Pero para mí… supondría adentrarse de nuevo en el infierno.
-	psicologa	Buenos días.
-	derek	Buenas.
-	psicologa	Hoy hace bonito día, ¿verdad?
-	derek	Sí, bueno.
-	psicologa	Siento que hoy no pueda estar con su psicologo habitual. Se encuentra mal, pero yo estoy de suplente.
-	psicologa	Sí es cierto que tengo sus datos en su ficha de paciente, pero me gustaría oír de usted.
-	psicologa	¿Me puedes hablar un poco sobre tí?
-	derek	Ehh. .
-	derek	Pues.. me llamo Derek. Tengo 18 años.
-	derek	Y ya.
-	psicologa	¿Nada más?
-	psicologa	Algo habrá que haber.
-	derek	Supongo que me voy a la universidad mañana.
-	psicologa	¿Cómo? ¿Comienzas?
-	derek	Sí.
-	psicologa	Ah.
-	psicologa	Mira aquí pone…
-	psicologa	“Derek, adolescente tardío adulto de 18 años. Estudiante no empleado, soltero.”
-	psicologa	“Inscripción por parte de familia. Problemas de socialización y relación con demás personas.”
-	psicologa	“Estado de ánimo:”
-	psicologa	¿“radicalmente neutral”..?
-	psicologa	¿..qué se supone que significa eso?
+﻿#test			
+	test		Diferenciacion entre escenas funciona bien.
+end			
+			
+#infierno			
+narrator		!endf	Recuerdo la cara que puse al ver mis notas de la selectividad.
+narrator		!endf	Mis padres eran muy expectantes de mis calificaciones...
+yieldf			
+narrator		!waitf	pero me logré superar.
+narrator		!f	Les pude satisfacer. No paraban de decir cómo de orgullosos estaban de mí.
+		!f	Sonreí por corresponder los halagos, pero en el fondo no estaba del todo seguro.
+			En verdad no quería ir a la universidad.
+			Solo quería quedarme en mi cuarto jugando o estando con mi ordenador.
+end-temp			
